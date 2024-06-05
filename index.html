@@ -9,9 +9,12 @@
     <a-scene>
          <a-sky color= "#BFF6FA"></a-sky>
 
-      <!-- Movimiento móvil -->
-        <a-entity movement-controls="fly: true" position="0 0 0">
+       <!-- Movimiento Movil -->
+        <a-entity movement-controls="fly: true" position="0 1.6 0">
             <a-entity camera position="0 0 0" look-controls></a-entity>
+            <a-entity cursor="rayOrigin:mouse"></a-entity>
+            <a-entity laser-controls="hand: right"></a-entity>
+        </a-entity>
           
       <!-- SALA 1 -->
       <a-entity position="0 2 0">
